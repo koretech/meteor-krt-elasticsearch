@@ -1,0 +1,9 @@
+<template name="krtElasticSearchInput">
+	<input name="{{name}}" type="{{type}}" placeholder="{{placeholder}}" class="{{class}}">
+</template>
+
+<template name="krtElasticSearchResults">
+	{{#each results}}
+		{{> Template.contentBlock this }}
+	{{/each}}
+</template>
