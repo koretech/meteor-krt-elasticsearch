@@ -7,3 +7,15 @@
 		{{> Template.contentBlock this }}
 	{{/each}}
 </template>
+
+<template name="krtElasticSearchPagination">
+	{{#if pages}}
+	<div class="ui pagination menu">
+		<a class="icon prev item"><i class="left arrow icon"></i></a>
+		{{#each pages}}
+			<a class="page item {{class}}" data-page="{{num}}">{{{text}}}</a>
+		{{/each}}
+		<a class="icon next item"><i class="right arrow icon"></i></a>
+	</div>
+	{{/if}}
+</template>

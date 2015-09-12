@@ -1,7 +1,7 @@
 Package.describe({
   name: 'krt:elasticsearch',
-  summary: "KRT ElasticSearch - Sync collections with ElasticSearch and search them. Heavy influence from https://github.com/matteodem/meteor-easy-search",
-  version: "0.1.0",
+  summary: "Sync collections with ElasticSearch and search them. Heavy influence from easy-search",
+  version: "0.2.1",
   documentation: null
 });
 
